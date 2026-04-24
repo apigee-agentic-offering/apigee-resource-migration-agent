@@ -120,3 +120,24 @@ Migrating from Apigee OPDK (On-Premises) to Apigee X/Hybrid traditionally involv
     adk web --port=9092
     ```
 4.  Open the URL provided in the output (e.g., `http://localhost:9092`) and select the `apigee_resource_migrator` agent to begin.
+
+## 🧪 Testing
+
+The project includes a suite of unit tests to ensure the reliability of the agent's tools without needing to interact with live Apigee environments.
+
+### Covered Scenarios
+- **Config Updates**: Verifies that tools can safely update `config.py` variables (e.g., `SOURCE_DIR`, `SA_ENABLE`, `APIGEE_HYB_ORG`) using regular expressions.
+- **Registry Checks**: Tests registry lookups for Apps, Developers, and KVMs, handling missing files, corrupt JSON, and matching logic.
+- **Execution Mocks**: Simulates running low-level scripts by mocking `subprocess.run` and verifying arguments and log parsing behavior.
+
+### How to Run Tests
+
+Due to environment constraints preventing external package installation, the tests use Python's built-in `unittest` framework instead of `pytest`.
+
+Run the following command from the project root directory:
+
+```bash
+PYTHONPATH=manager python3 -m unittest discover -s manager/tests
+```
+
+This will automatically discover and run all tests in the `manager/tests/` directory.
