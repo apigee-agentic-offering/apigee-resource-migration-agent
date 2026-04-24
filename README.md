@@ -63,7 +63,7 @@ Migration operations can be destructive. This system implements strict guardrail
 ## 📁 Project Structure
 
 ```text
-7-apigee-resorce-migration-agent/
+apigee-resorce-migration-agent/
 ├── manager/                  # Core Agent Application & Scripts
 │   ├── agent.py             # Defines Root Agent
 │   ├── sub_agents/          # Specialized Agent Definitions
