@@ -8,7 +8,7 @@ An advanced multi-agent system built on Google's **Agent Development Kit (ADK)**
 
 The project employs a hub-and-spoke multi-agent architecture, ensuring a clean separation of concerns and highly focused interactions.
 
-!["Agent Architecture Graph"](file:///Users/sharnendradey/.gemini/jetski/brain/e0f954a6-a8f8-487f-a657-8c46a58d1521/media__1777049072866.png)
+![Agent Architecture Graph](manager/assets/architecture.png)
 
 ### 👑 Root Agent: `apigee_resource_migrator`
 The central entry point and orchestrator. It understands user intent, explains capabilities, and routes requests to the appropriate specialized sub-agent.
@@ -63,7 +63,7 @@ Migration operations can be destructive. This system implements strict guardrail
 ## 📁 Project Structure
 
 ```text
-apigee-resorce-migration-agent/
+7-apigee-resorce-migration-agent/
 ├── manager/                  # Core Agent Application & Scripts
 │   ├── agent.py             # Defines Root Agent
 │   ├── sub_agents/          # Specialized Agent Definitions
