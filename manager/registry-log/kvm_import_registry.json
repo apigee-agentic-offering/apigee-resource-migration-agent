@@ -1,0 +1,51 @@
+{
+  "apigee-project-01-468313": {},
+  "gemini-ai-apigee-security": {
+    "org": {
+      "appidcache": {
+        "f90e0c7d-213c-4764-8097-47c43a99b1cd": "XqGOqciIhEEBDzseht3Tx23jZHG5qqf4",
+        "440adfa1-22c1-4e56-a64a-4afc1beb979d": "qEs0WqhvWPXA1vJuFgHGRjugwiYhrHpY",
+        "cd63ae47-751e-42d2-ba2b-5705cea55a17": "OG6TrE7X3ppzTrF4F6aluxVWENzgjG7S",
+        "e584a67b-2baf-425a-af8e-820fc3ba0cef": "r45fD5gs2GG61X9yZGKXORvAnGQgJ5rs",
+        "79c06561-8913-4e73-964c-4a24ebcdd280": "9YqhqVvg5jJRF4gVINTbWzpbD3vOjgnh",
+        "205cf6b9-9a02-461b-99a2-793c75c453ae": "pbuROyuyaZcuPg6AiIbN4E7TiSp0Viik",
+        "8f5b6184-1133-4704-b8df-02bb25e12e45": "ShXEWuGKgejEWVE0mVnZQdAWv7ACtIFl",
+        "8af98a92-98bc-47a1-96c1-859bf6e1e977": "Y8Rl4FWWwYGfaFpajlm0ITvuVUUQdd8n",
+        "b33f9b4e-56ea-4477-a6ad-59811b8991d5": "lwCASb7lNRHjZtKqA5caoGGlRR9JLJR7",
+        "e7aca3a6-d89c-4a04-b1f5-c46885014f92": "0y81eNvbHUSkEgfATX7igGIhwWzFNc2U",
+        "0b62384e-6f0a-4e47-b82a-dae81dbbb594": "oOlgBENNBAQoREBbL18ph5FhCBqo03Jr",
+        "bed74b08-18bd-49de-9233-e0905e8c9d5e": "5NWv5gAla8A3GyNCknZy2IhT35Wqpf1s",
+        "9f93b7d1-a0f2-4c02-8465-88fc3cc3ab40": "X658hHlYm25AolqePbscHUu8og4PpMnO",
+        "432582c0-4405-4069-a41a-97d128dc77e6": "Tbw06styrYz2f33OhB5fDwlPspOkWArG",
+        "0271c545-d03e-4a71-b360-94c7d1ea441e": "qAFQhb72I8GAqjnAcrm5dW3OIdpZaRjT",
+        "3f9a50f4-0472-48e8-b8a6-344b12efa271": "jQWhJlSoldWyoKcUliOmQP8LWqCGfYr6",
+        "25c0f767-3579-47c2-b537-3e574312345f": "kAYTG8XwYrVicLjhNcPNpAPvJgrsDCvp"
+      },
+      "apicache": {
+        "password": "n1tR0sTouT",
+        "solution-service-x-realm": "Q-PLATFORM-COVS",
+        "solution-service-x-requestor": "{person}[Q-PLATFORM-COVS]Q-PLATFORM-COVS_ADMIN",
+        "solution-service-client-secret": "6JD2C9KwhfLpoR9u",
+        "solution-service-client-id": "iqH7MPeuoQOgu0qhCV0k45xhvu0LKXvB",
+        "default-developer-portal-uri": "http://192.168.59.103:9000",
+        "iot_solution_client_id": "ihKgxFaPFPZ7XMMJnFok0z05MecbS5Ao",
+        "iot_solution_sandbox_client_id": "psyIBqZYo1cvTJhBnaB4b0xuJYDjHG05",
+        "portal_client_id": "AKKQNYqinuAbuNfUA4uqptddhWA9Zq05",
+        "us-east": "true",
+        "solution-service-x-requestor-app": "portal",
+        "hostname": "http://apigeems.np.covapp.io:8080",
+        "cca_client_secret": "vhwZJ2VAquCYrDXg",
+        "x-realm": "APPCLOUD-QA",
+        "token-service-client-id": "RYpM2umnw83PY6mVxolTbcG1Gb3aoblj",
+        "x-requestor": "{person}[APPCLOUD-QA]APPCLOUD-QA_ADMIN",
+        "x-requestor-app": "portal",
+        "cca_client_id": "TM0910CPnr3mwgGfv9TeHbu96qmA9TMf",
+        "decryptorSeed": "g8eBQvix1",
+        "decryptorLength": "128",
+        "defaultNumberOfDevicesConfigured": "5",
+        "username": "apideploy@covisint.com",
+        "us1_datacenter_id": "2922878d-8171-4b80-b58a-a0d5e5b3a6c0"
+      }
+    }
+  }
+}
